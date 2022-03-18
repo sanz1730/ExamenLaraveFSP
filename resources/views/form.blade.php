@@ -7,16 +7,16 @@
 @endif
   
   
-  <label for="nombre">Nombre</label>
+  <label for="nombre">Nombre:</label>
   <input type="text" id="nombre" name="nombre" maxlength="50" 
          value="{{isset($Contactos->nombre)?$Contactos->nombre:''}}"/><br>
          
          
-  <label for="apellido_paterno">Apellido Paterno</label>
+  <label for="apellido_paterno">Apellido Paterno:</label>
   <input type="text" id="apellido_paterno" name="apellido_paterno" maxlength="50" 
          value="{{isset($Contactos->apellido_paterno)?$Contactos->apellido_paterno:''}}"/><br>
 
-  <label for="apellido_materno">Apellido Materno</label>
+  <label for="apellido_materno">Apellido Materno:</label>
   <input type="text" id="apellido_materno" name="apellido_materno" maxlength="50" 
          value="{{isset($Contactos->apellido_materno)?$Contactos->apellido_materno:''}}"/><br>
 
