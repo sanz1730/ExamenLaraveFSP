@@ -24,11 +24,11 @@
   <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" maxlength="10" 
          value="{{isset($Contactos->fecha_nacimiento)?$Contactos->fecha_nacimiento:''}}"/><br>
 
-  <label for="">Calle</label>
+  <label for="">Calle:</label>
   <input type="text" id="calle" name="calle" maxlength="50" 
          value="{{isset($Contactos->calle)?$Contactos->calle:''}}"/><br>
 
-  <label for="">Numero</label>
+  <label for="">Numero:</label>
   <input type="text" id="numero" name="numero" class="solo_numeros" maxlength="10" 
          value="{{isset($Contactos->numero)?$Contactos->numero:''}}"/><br>
 
@@ -36,7 +36,7 @@
   <input type="text" id="nombre_asentamiento" name="nombre_asentamiento" maxlength="50" 
          value="{{isset($Contactos->nombre_asentamiento)?$Contactos->nombre_asentamiento:''}}"/><br>
 
-  <label for="codigo_postal">Codigo Postal</label>
+  <label for="codigo_postal">Codigo Postal:</label>
   <input type="number" id="codigo_postal" name="codigo_postal" class="solo_numeros" maxlength="5" 
          value="{{isset($Contactos->codigo_postal)?$Contactos->codigo_postal:''}}"/><br>
 
